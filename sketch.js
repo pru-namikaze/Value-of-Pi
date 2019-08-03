@@ -99,6 +99,8 @@ function draw() {
       // Check for Wall Rebound.
       b0.wallRebound();
       b1.wallRebound();
+      b0.render();
+      b1.render();
     }
   }
   
